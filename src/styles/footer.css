@@ -1,0 +1,28 @@
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6e79d6;
+    margin-top: 30px;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    color: #ffffff;
+}
+
+
+footer span,
+footer p {
+    padding: 20px 0;
+}
+
+footer hr {
+    width: 100%;
+    border: 1px solid #ffffff;
+}
