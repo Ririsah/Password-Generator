@@ -252,3 +252,45 @@ h3 {
     font-size: 1.3rem;
     color: #a6a6a6;
 }
+
+
+@media (max-width: 1090px) {
+    .content_container_2 {
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.7fr 1.4fr 0.6fr;
+        width: 95%;
+    }
+}
+
+@media (max-width: 586px) {
+    .main_content {
+        flex-direction: column;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+    
+    .gear_img {
+        width: 200px;
+    }
+    
+    .container_box_1 p {
+        font-size: 0.8rem;
+    }
+    
+
+    .main_box_1 {
+        width: 100%;
+        border-bottom: 1px solid #ffbd59;
+    }
+
+    .main_box_2 {
+        width: 100%;
+        margin: 10px 20px;
+    }
+
+    .checkbox-wrapper-2 {
+        margin: 10px 0;
+    }
+}

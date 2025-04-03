@@ -49,3 +49,14 @@ h5 {
     font-size: 0.8rem;
     color: #a6a6a6;
 }
+
+
+@media (max-width: 586px) {
+    .benefits_itens {
+        flex-direction: column;
+    }
+
+    .benefits_title {
+        font-size: 1rem;
+    }
+}
